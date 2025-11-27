@@ -13,7 +13,7 @@ def load_jokes():
     try:
         
         #Linking the txt file
-        with open(r"C:\Users\DELL\OneDrive\Documents\GitHub\skills-portfolio-iArman06\Assessment 1 - Skills Portfolio\Exercise 2 - Alexa Tell me a Joke\A1 - Resources\randomJokes.txt","r") as file:
+        with open(r"C:\Users\DELL\OneDrive\Documents\GitHub\skills-portfolio-iArman06\Exercise 2 - Alexa Tell me a Joke\A1 - Resources\randomJokes.txt","r") as file:
             content= file.read().strip().split("\n\n")
             
             #the program splits the joke into lines and makes sure whether each joke has 2line or not and then adds the joke to the list
