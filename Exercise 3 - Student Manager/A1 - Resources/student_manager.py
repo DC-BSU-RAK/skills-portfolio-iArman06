@@ -17,7 +17,7 @@ def load_students():
     try:
         
         #linking the txt file location
-        with open(r"C:\Users\DELL\OneDrive\Documents\GitHub\skills-portfolio-iArman06\Assessment 1 - Skills Portfolio\Exercise 3 - Student Manager\A1 - Resources\studentMarks.txt", "r") as file:
+        with open(r"C:\Users\DELL\OneDrive\Documents\GitHub\skills-portfolio-iArman06\Exercise 3 - Student Manager\A1 - Resources\studentMarks.txt", "r") as file:
             count = int(file.readline().strip())
             for _ in range(count):
                 
